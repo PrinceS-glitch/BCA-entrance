@@ -8,6 +8,7 @@ void add();                       ///-- User defined functions--///
 void startMenu();
 void questions();
 void q10();
+void renderLatex(char *line);
 
 int qCount=0;   
 int score=0;                    ///--Global Variable--///
@@ -104,6 +105,7 @@ void startMenu() {
     printf("Enter your choice : ");
     scanf("%s",choice);
 
+
     if(strcmp(choice,"a")==0 || strcmp(choice,"Start preparation")==0){
         questions();
 
@@ -114,7 +116,73 @@ void startMenu() {
         exit(0);
     }
 }
+void renderLatex(char *line) {           // change latex equation into rendered math form as parser does
 
+    char lower[50], upper[50], body[200];
+
+    // INTEGRATION
+    if (strstr(line, "\\int")) {
+
+        sscanf(line,
+               "\\int_{%[^}]}^{%[^}]} %[^\\n]",
+               lower,
+               upper,
+               body);
+
+        // Convert common powers manually
+        if (strstr(body, "^2")) {
+            char *ptr = strstr(body, "^2");
+            strcpy(ptr, "²");
+        }
+
+        else if (strstr(body, "^3")) {
+            char *ptr = strstr(body, "^3");
+            strcpy(ptr, "³");
+        }
+
+        printf("\n");
+        printf(" %s\n", upper);
+        printf(" ⌠\n");
+        printf(" ⎮ %s\n", body);
+        printf(" ⌡\n");
+        printf(" %s\n", lower);
+
+    }
+
+    // SUMMATION
+    else if (strstr(line, "\\sum")) {
+
+        char start[50], end[50], expr[100];
+
+        sscanf(line,
+               "\\sum_{n=%[^}]}^{%[^}]} %[^\\n]",
+               start,
+               end,
+               expr);
+
+        printf("\n");
+        printf("  %s\n", end);
+        printf("  Σ %s\n", expr);
+        printf(" n=%s\n", start);
+    }
+
+    // SQUARE ROOT
+    else if (strstr(line, "\\sqrt")) {
+
+        char value[100];
+
+        sscanf(line,
+               "\\sqrt{%[^}]}",
+               value);
+
+        printf("√%s\n", value);
+    }
+
+    // DEFAULT
+    else {
+        printf("%s", line);
+    }
+}
 
 void questions() {
     FILE *fq, *fa;
@@ -125,6 +193,7 @@ void questions() {
 
     printf("From which question number do you want to continue: ");
     scanf("%d", &qNo);
+    system("clear");
 
     fq = fopen("question.txt", "r");
     fa = fopen("ans.txt", "r");
@@ -148,11 +217,18 @@ void questions() {
         currentLine++;
         qCount++;
 
-        printf("\nQuestion %d: %s", currentLine, qline);
+        printf("\nQuestion %d:\n", currentLine);
+
+        if (qline[0] == '\\') {    //qline conatins 1 question and it contains whether it is in latex form or not
+           renderLatex(qline);
+        }
+        else {
+        printf("%s", qline);
+        }
         printf("Enter your answer: ");
         scanf(" %c", &ans);
 
-        if (ans == aline[0]) {
+        if (ans == aline[0]) {        // ans is single character datatype so comparing with first character of aline which is correct answer
             printf("Correct answer!\n");
             score++;
         } else {

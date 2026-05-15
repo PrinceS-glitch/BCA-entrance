@@ -52,3 +52,4 @@ The x-intercept and y-intercepts of a straight line 2x + 3y = 6 are Options: a) 
 If cos A = 4/5 then value of tan A is Options: a) 3/5 b) 5/4 c) 5/3 d) 3/4
 A person took a loan of Rs. 1,500 for 3 months at 12% per annum simple interest, the amount to return is Options: a) Rs.45 b) Rs.1454 c) Rs.1545 d) Rs. 1554
 The area of circle is 311 cm², if π = 3.14 then its diameter is Options: a) 100 cm b) 50 cm c) 20 cm d) 10 cm
+\int_{2}^{5} x^3 dx Options: a) 152.25 b) 204 c) 182.41 d) 200
