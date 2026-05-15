@@ -259,6 +259,7 @@ void q10() {
 
     if (strcmp(choice, "a") == 0 || strcmp(choice, "Continue the game") == 0) {
         qCount = 0; // reset counter
+        system("clear");
        
         return;       // continue quiz
     }
