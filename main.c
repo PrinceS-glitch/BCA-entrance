@@ -123,31 +123,64 @@ void renderLatex(char *line) {           // change latex equation into rendered 
     // INTEGRATION
     if (strstr(line, "\\int")) {
 
-        sscanf(line,
-               "\\int_{%[^}]}^{%[^}]} %[^\\n]",
-               lower,
-               upper,
-               body);
+    char lower[50], upper[50], body[500];
 
-        // Convert common powers manually
-        if (strstr(body, "^2")) {
-            char *ptr = strstr(body, "^2");
-            strcpy(ptr, "²");
-        }
+    sscanf(line,
+           "\\int_{%[^}]}^{%[^}]} %[^\n]",
+           lower,
+           upper,
+           body);
 
-        else if (strstr(body, "^3")) {
-            char *ptr = strstr(body, "^3");
-            strcpy(ptr, "³");
-        }
+    // Convert ^2
+    char *ptr;
 
-        printf("\n");
-        printf(" %s\n", upper);
-        printf(" ⌠\n");
-        printf(" ⎮ %s\n", body);
-        printf(" ⌡\n");
-        printf(" %s\n", lower);
+    if ((ptr = strstr(body, "^2"))) {
 
+        char temp[500];
+
+        int pos = ptr - body;
+
+        strncpy(temp, body, pos);
+
+        temp[pos] = '\0';
+
+        strcat(temp, "²");
+
+        strcat(temp, ptr + 2);
+
+        strcpy(body, temp);
     }
+
+    // Convert ^3
+    if ((ptr = strstr(body, "^3"))) {
+
+        char temp[500];
+
+        int pos = ptr - body;
+
+        strncpy(temp, body, pos);
+
+        temp[pos] = '\0';
+
+        strcat(temp, "³");
+
+        strcat(temp, ptr + 2);
+
+        strcpy(body, temp);
+    }
+
+    printf("\n");
+
+    printf(" %s\n", upper);
+
+    printf(" ⌠\n");
+
+    printf(" ⎮ %s\n", body);
+
+    printf(" ⌡\n");
+
+    printf(" %s\n", lower);
+}
 
     // SUMMATION
     else if (strstr(line, "\\sum")) {
