@@ -131,16 +131,38 @@ void renderLatex(char *line) {           // change latex equation into rendered 
            upper,
            body);
 
+    // Separate options
+    char equation[300];
+    char options[300];
+
+    char *optPtr = strstr(body, "Options:");
+
+    if (optPtr != NULL) {
+
+        int pos = optPtr - body;
+
+        strncpy(equation, body, pos);
+
+        equation[pos] = '\0';
+
+        strcpy(options, optPtr);
+    }
+    else {
+
+        strcpy(equation, body);
+        options[0] = '\0';
+    }
+
     // Convert ^2
     char *ptr;
 
-    if ((ptr = strstr(body, "^2"))) {
+    if ((ptr = strstr(equation, "^2"))) {
 
-        char temp[500];
+        char temp[300];
 
-        int pos = ptr - body;
+        int pos = ptr - equation;
 
-        strncpy(temp, body, pos);
+        strncpy(temp, equation, pos);
 
         temp[pos] = '\0';
 
@@ -148,17 +170,17 @@ void renderLatex(char *line) {           // change latex equation into rendered 
 
         strcat(temp, ptr + 2);
 
-        strcpy(body, temp);
+        strcpy(equation, temp);
     }
 
     // Convert ^3
-    if ((ptr = strstr(body, "^3"))) {
+    if ((ptr = strstr(equation, "^3"))) {
 
-        char temp[500];
+        char temp[300];
 
-        int pos = ptr - body;
+        int pos = ptr - equation;
 
-        strncpy(temp, body, pos);
+        strncpy(temp, equation, pos);
 
         temp[pos] = '\0';
 
@@ -166,20 +188,27 @@ void renderLatex(char *line) {           // change latex equation into rendered 
 
         strcat(temp, ptr + 2);
 
-        strcpy(body, temp);
+        strcpy(equation, temp);
     }
 
+    // PRINT
     printf("\n");
 
     printf(" %s\n", upper);
 
     printf(" ⌠\n");
 
-    printf(" ⎮ %s\n", body);
+    printf(" ⎮ %s\n", equation);
 
     printf(" ⌡\n");
 
     printf(" %s\n", lower);
+
+    // Print options separately
+    if (strlen(options) > 0) {
+
+        printf("\n%s\n", options);
+    }
 }
 
     // SUMMATION
@@ -188,7 +217,7 @@ void renderLatex(char *line) {           // change latex equation into rendered 
         char start[50], end[50], expr[100];
 
         sscanf(line,
-               "\\sum_{n=%[^}]}^{%[^}]} %[^\\n]",
+               "\\sum_{n=%[^}]}^{%[^}]} %[^\n]",
                start,
                end,
                expr);
@@ -256,7 +285,26 @@ void questions() {
            renderLatex(qline);
         }
         else {
-        printf("%s", qline);
+        char *optPtr = strstr(qline, "Options:");
+
+if (optPtr != NULL) {
+
+    int pos = optPtr - qline;
+
+    char questionPart[500];
+
+    strncpy(questionPart, qline, pos);
+
+    questionPart[pos] = '\0';
+
+    printf("%s\n", questionPart);
+
+    printf("%s", optPtr);
+}
+else {
+
+    printf("%s", qline);
+}
         }
         printf("Enter your answer: ");
         scanf(" %c", &ans);
