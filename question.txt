@@ -54,4 +54,5 @@ A person took a loan of Rs. 1,500 for 3 months at 12% per annum simple interest,
 The area of circle is 311 cm², if π = 3.14 then its diameter is Options: a) 100 cm b) 50 cm c) 20 cm d) 10 cm
 \int_{2}^{5} x^3 dx Options: a) 152.25 b) 204 c) 182.41 d) 200
 If 6 is subtracted from the cube of a number and the result is 21, then what is the value of that number?
-What is the value of \sum_{n=10}^{10} (-1)^n
+What is the value of \sum_{n=10}^{10} (-1)^n Options: a) 0 b) -1 c) 1 d) 2
+What is the value (\sqrt{5}+\sqrt{5})^2 Options: a) 20 b) 10 c)30 d)15

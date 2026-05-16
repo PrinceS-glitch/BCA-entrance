@@ -249,17 +249,43 @@ void renderLatex(char *line) {           // change latex equation into rendered 
         printf(" n=%s\n", start);
     }
 
-    // SQUARE ROOT
-    else if (strstr(line, "\\sqrt")) {
+// DYNAMIC SQUARE ROOT PARSER
+else if (strstr(line, "\\sqrt")) {
 
-        char value[100];
+    char result[1000] = "";
+    char *ptr = line;
 
-        sscanf(line,
-               "\\sqrt{%[^}]}",
-               value);
+    while (*ptr) {
 
-        printf("√%s\n", value);
+        // Found \sqrt
+        if (strstr(ptr, "\\sqrt{") == ptr) {
+
+            ptr += 6; // skip \sqrt{
+
+            strcat(result, "√");
+
+            // copy everything until }
+            while (*ptr && *ptr != '}') {
+
+                strncat(result, ptr, 1);
+                ptr++;
+            }
+
+            // skip }
+            if (*ptr == '}') {
+                ptr++;
+            }
+        }
+
+        else {
+
+            strncat(result, ptr, 1);
+            ptr++;
+        }
     }
+
+    printf("%s\n", result);
+}
 
     // DEFAULT
     else {
