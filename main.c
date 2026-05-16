@@ -121,11 +121,22 @@ void renderLatex(char *line) {           // change latex equation into rendered 
     char lower[50], upper[50], body[200];
 
     // INTEGRATION
+     char *intPtr = strstr(line, "\\int");   // finds position from when parsing to be done
     if (strstr(line, "\\int")) {
+            char before[300];
 
-    char lower[50], upper[50], body[500];
+         int posBefore = intPtr - line;
 
-    sscanf(line,
+         strncpy(before, line, posBefore);
+
+         before[posBefore] = '\0';
+
+         printf("%s", before);
+
+
+        char lower[50], upper[50], body[500];
+
+        sscanf(intPtr,
            "\\int_{%[^}]}^{%[^}]} %[^\n]",
            lower,
            upper,
@@ -215,8 +226,18 @@ void renderLatex(char *line) {           // change latex equation into rendered 
     else if (strstr(line, "\\sum")) {
 
         char start[50], end[50], expr[100];
+        char *sumPtr = strstr(line, "\\sum");
+        char before[300];
 
-        sscanf(line,
+        int posBefore = sumPtr - line;
+
+         strncpy(before, line, posBefore);
+
+         before[posBefore] = '\0';
+
+         printf("%s", before);
+
+        sscanf(sumPtr,
                "\\sum_{n=%[^}]}^{%[^}]} %[^\n]",
                start,
                end,
@@ -281,7 +302,7 @@ void questions() {
 
         printf("\nQuestion %d:\n", currentLine);
 
-        if (qline[0] == '\\') {    //qline conatins 1 question and it contains whether it is in latex form or not
+        if (strstr(qline,"\\") )    {    //qline conatins 1 question and it contains whether it is in latex form or not
            renderLatex(qline);
         }
         else {
