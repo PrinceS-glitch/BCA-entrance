@@ -12,9 +12,13 @@ void q10();
 void renderLatex(char *line);
 void shuffleOptions(char options[4][100], char *correctAns);
 void authenticity_check(char username[],char password[]);
+void updateScore(int newScore);
 
 int qCount=0;   
-int score=0;                    ///--Global Variable--///
+ 
+int lastScore = 0;
+int currentUserLine = 0;  
+int lastQuestionReached = 0;                ///--Global Variable--///
 
 int main() {
     srand(time(NULL));        //Use current time as the starting seed.
@@ -93,6 +97,18 @@ void add() {         //////////--register-////////
     fprintf(ptr2,"%s\n",password);
 
     fclose(ptr2);
+    // saving 0 as user score
+    FILE *fs;
+
+fs = fopen("score.txt","a");
+
+if(fs == NULL){
+    printf("Score cannot be saved\n");
+}
+
+fprintf(fs,"0\n");
+
+fclose(fs);
     printf("User %s registered successfully!\n", username);
     startMenu();
 
@@ -335,8 +351,9 @@ void questions() {
     int qNo;
     char ans;
 
-    printf("From which question number do you want to continue: ");
-    scanf("%d", &qNo);
+     qNo = lastScore + 1;
+
+     printf("Continuing from Question %d\n", qNo);
     #ifdef _WIN32
     system("cls");
     #else
@@ -364,6 +381,7 @@ void questions() {
 
         currentLine++;
         qCount++;
+        lastQuestionReached = currentLine;
 
         printf("\nQuestion %d:\n", currentLine);
 
@@ -419,7 +437,7 @@ if (optPtr != NULL) {
 
         if (ans == aline[0]) {        // ans is single character datatype so comparing with first character of aline which is correct answer
             printf("Correct answer!\n");
-            score++;
+           
         } else {
             printf("Wrong answer. Correct answer: %c\n", aline[0]);
         }
@@ -458,6 +476,8 @@ void q10() {
     }
     else if (strcmp(choice, "b") == 0 || strcmp(choice, "Exit") == 0) {
         printf("Exiting...\n");
+        
+        updateScore(lastQuestionReached);
         exit(0);
     }
     else {
@@ -467,44 +487,98 @@ void q10() {
 }
 
 void authenticity_check(char username[],char password[]){
-    FILE *fu,*fp;
+
+    FILE *fu,*fp,*fs;
 
     char storedUser[50];
     char storedPass[50];
 
+    int storedScore;
+
     int found =0;
+    int line = 0;
 
     fu = fopen("user.txt","r");
     fp = fopen("pass.txt","r");
+    fs = fopen("score.txt","r");
 
-    if(fu == NULL || fp==NULL){
-        printf("Error opening file ");
+    if(fu == NULL || fp==NULL || fs==NULL){
+
+        printf("Error opening file\n");
         return;
     }
-             // Read both files line by line together
-    while(fscanf(fu,"%s",storedUser)!=EOF && fscanf(fp,"%s",storedPass)!=EOF){
-        if(strcmp(username,storedUser)==0 && strcmp(password,storedPass)==0){
-            found=1;
-            break;
 
+    while(fscanf(fu,"%s",storedUser)!=EOF &&
+          fscanf(fp,"%s",storedPass)!=EOF &&
+          fscanf(fs,"%d",&storedScore)!=EOF){
+
+        line++;
+
+        if(strcmp(username,storedUser)==0 &&
+           strcmp(password,storedPass)==0){
+
+            found=1;
+
+            lastScore = storedScore;
+
+            currentUserLine = line;
+
+            break;
         }
     }
+
     fclose(fu);
     fclose(fp);
+    fclose(fs);
 
     if(found){
-        printf("Login successful !\n");
+
+        printf("Login successful!\n");
+
+        printf("Previous progress: Question %d\n", lastScore);
+
         startMenu();
-
     }
+
     else{
-        printf("Credentials not found . Either retry or create a new account");
-        
+
+        printf("Credentials not found.\n");
+    }
+}
+void updateScore(int newScore){
+
+    FILE *fs;
+
+    int scores[100];
+
+    int i = 0;
+
+    fs = fopen("score.txt","r");
+
+    if(fs == NULL){
+
+        return;
     }
 
+    while(fscanf(fs,"%d",&scores[i]) != EOF){
 
+        i++;
+    }
+
+    fclose(fs);
+
+    // update current user's score
+    scores[currentUserLine - 1] = newScore;
+
+    fs = fopen("score.txt","w");
+
+    for(int j=0; j<i; j++){
+
+        fprintf(fs,"%d\n",scores[j]);
+    }
+
+    fclose(fs);
 }
-
 
 
 
