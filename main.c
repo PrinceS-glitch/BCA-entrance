@@ -11,6 +11,7 @@ void questions();
 void q10();
 void renderLatex(char *line);
 void shuffleOptions(char options[4][100], char *correctAns);
+void authenticity_check(char username[],char password[]);
 
 int qCount=0;   
 int score=0;                    ///--Global Variable--///
@@ -19,7 +20,7 @@ int main() {
     srand(time(NULL));        //Use current time as the starting seed.
     char choice[20];
 /////////////////////////////-- Main Menu--/////////////////////////////
-    printf("Welcome to BCA Entrance preparation\n");
+    printf("\t\t\t\tWelcome to BCA Entrance preparation\n");
     printf("Main menu:\n");
     printf("a) Login\n");
     printf("b) Register\n");
@@ -49,6 +50,7 @@ int main() {
 
 void login() {
     char username[50], password[50];
+    printf("\t\t\t\t\tEnter the details \n");
 
     printf("Enter username: ");
     scanf("%s", username);
@@ -57,13 +59,14 @@ void login() {
     scanf("%s", password);
 
     printf("Login attempted with Username: %s\n", username);
+    authenticity_check(username,password);
 }
 
 void add() {         //////////--register-////////
     FILE *ptr,*ptr2;
     char username[50], password[50];
 
-    printf("Register new user\n");
+    printf("\t\t\t\t\tRegister new user\n");
 
     printf("Enter username: ");
     scanf("%s", username);
@@ -79,7 +82,7 @@ void add() {         //////////--register-////////
     if(ptr==NULL){
         printf("Username cannot be saved");
     }
-    fprintf(ptr,"\n%s",username);
+    fprintf(ptr,"%s\n",username);
     fclose(ptr);
 
 /////////--- Writing user's password in the file-----//////////////
@@ -87,7 +90,7 @@ void add() {         //////////--register-////////
     if(ptr2==NULL){
         printf("Password cannot be saved");
     }
-    fprintf(ptr2,"\n%s",password);
+    fprintf(ptr2,"%s\n",password);
 
     fclose(ptr2);
     printf("User %s registered successfully!\n", username);
@@ -101,8 +104,13 @@ void add() {         //////////--register-////////
 
 void startMenu() {
     char choice[50];
-    int question_count;
-    system("clear");         //  clear the console screen and reset the cursor to the top-left corner
+
+     #ifdef _WIN32
+    system("cls");
+    #else
+    system("clear");
+    #endif       //  clear the console screen and reset the cursor to the top-left corner
+    printf("\t\t\t\t\t START MENU\n");
     printf("a) Start preparation\n");
     printf("b) Exit\n");  
     printf("Enter your choice : ");
@@ -125,7 +133,7 @@ void shuffleOptions(char options[4][100], char *correctAns) {
 
     for (int i = 3; i > 0; i--) {      // swapping with respect to character
                                       // let i=3 and j=1 then after swap i=1 and j=3
-        int j = rand() % (i + 1);
+        int j = rand() % (i + 1);    // Fisher-Yates shuffle concept
 
         // swap options
         char temp[100];
@@ -329,7 +337,11 @@ void questions() {
 
     printf("From which question number do you want to continue: ");
     scanf("%d", &qNo);
+    #ifdef _WIN32
+    system("cls");
+    #else
     system("clear");
+    #endif
 
     fq = fopen("question.txt", "r");
     fa = fopen("ans.txt", "r");
@@ -436,7 +448,11 @@ void q10() {
 
     if (strcmp(choice, "a") == 0 || strcmp(choice, "Continue the game") == 0) {
         qCount = 0; // reset counter
+        #ifdef _WIN32
+        system("cls");
+       #else
         system("clear");
+        #endif
        
         return;       // continue quiz
     }
@@ -448,6 +464,45 @@ void q10() {
         printf("Invalid choice. Continuing by default.\n");
         qCount = 0;
     }
+}
+
+void authenticity_check(char username[],char password[]){
+    FILE *fu,*fp;
+
+    char storedUser[50];
+    char storedPass[50];
+
+    int found =0;
+
+    fu = fopen("user.txt","r");
+    fp = fopen("pass.txt","r");
+
+    if(fu == NULL || fp==NULL){
+        printf("Error opening file ");
+        return;
+    }
+             // Read both files line by line together
+    while(fscanf(fu,"%s",storedUser)!=EOF && fscanf(fp,"%s",storedPass)!=EOF){
+        if(strcmp(username,storedUser)==0 && strcmp(password,storedPass)==0){
+            found=1;
+            break;
+
+        }
+    }
+    fclose(fu);
+    fclose(fp);
+
+    if(found){
+        printf("Login successful !\n");
+        startMenu();
+
+    }
+    else{
+        printf("Credentials not found . Either retry or create a new account");
+        
+    }
+
+
 }
 
 
