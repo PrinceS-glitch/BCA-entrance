@@ -56,3 +56,7 @@ The area of circle is 311 cm², if π = 3.14 then its diameter is Options: a) 10
 If 6 is subtracted from the cube of a number and the result is 21, then what is the value of that number?
 What is the value of \sum_{n=10}^{10} (-1)^n Options: a) 0 b) -1 c) 1 d) 2
 What is the value (\sqrt{5}+\sqrt{5})^2 Options: a) 20 b) 10 c)30 d)15
+Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are: Options: a)39,30 b)41,32 c)42,33 d)43,34
+What is the probability of getting a sum 9 from two throws of a dice? Options: a) 1/6 b) 1/9 c) 1/8 d) 5/7
+In how many different ways can the letters of the word 'LEADING' be arranged in such a way that the vowels always come together? Options: a) 360  b) 480 c) 720 d) 5040
+Today is Monday. After 61 days, it will be: Options: a) Wednesday b) Saturday c) Tuesday d) Thursday

@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
 
 void login();
 void add();                       ///-- User defined functions--///
@@ -9,11 +10,13 @@ void startMenu();
 void questions();
 void q10();
 void renderLatex(char *line);
+void shuffleOptions(char options[4][100], char *correctAns);
 
 int qCount=0;   
 int score=0;                    ///--Global Variable--///
 
 int main() {
+    srand(time(NULL));        //Use current time as the starting seed.
     char choice[20];
 /////////////////////////////-- Main Menu--/////////////////////////////
     printf("Welcome to BCA Entrance preparation\n");
@@ -115,6 +118,30 @@ void startMenu() {
         printf("Exiting...\n");
         exit(0);
     }
+}
+void shuffleOptions(char options[4][100], char *correctAns) {
+
+    int correctIndex = *correctAns - 'a';
+
+    for (int i = 3; i > 0; i--) {      // swapping with respect to character
+                                      // let i=3 and j=1 then after swap i=1 and j=3
+        int j = rand() % (i + 1);
+
+        // swap options
+        char temp[100];
+        strcpy(temp, options[i]);
+        strcpy(options[i], options[j]);
+        strcpy(options[j], temp);
+
+        // track correct answer movement
+        if (i == correctIndex)  // k hamro corect index ko value pahila i sama same thyo if yes bhane aba swap paxi j ma hola
+            correctIndex = j;
+
+        else if (j == correctIndex)
+            correctIndex = i;
+    }
+
+    *correctAns = 'a' + correctIndex;
 }
 void renderLatex(char *line) {           // change latex equation into rendered math form as parser does
 
@@ -346,13 +373,35 @@ if (optPtr != NULL) {
 
     printf("%s\n", questionPart);
 
-    printf("%s", optPtr);
-}
-else {
+    // extract options
+    char options[4][100];
 
-    printf("%s", qline);
+    sscanf(optPtr,
+           "Options: a) %[^b] b) %[^c] c) %[^d] d) %[^\n]",
+           options[0],
+           options[1],
+           options[2],
+           options[3]);
+
+    // original correct answer
+    char correctAns = aline[0];
+
+    // shuffle
+    shuffleOptions(options, &correctAns);
+
+    // print shuffled options
+    printf("Options:\n");
+
+    printf("a) %s\n", options[0]);
+    printf("b) %s\n", options[1]);
+    printf("c) %s\n", options[2]);
+    printf("d) %s\n", options[3]);
+
+    // replace aline answer temporarily
+    aline[0] = correctAns;
 }
-        }
+
+    }
         printf("Enter your answer: ");
         scanf(" %c", &ans);
 
