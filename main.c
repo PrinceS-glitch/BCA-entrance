@@ -406,12 +406,12 @@ if (optPtr != NULL) {
     // extract options
     char options[4][100];
 
-    sscanf(optPtr,
-           "Options: a) %[^b] b) %[^c] c) %[^d] d) %[^\n]",
-           options[0],
-           options[1],
-           options[2],
-           options[3]);
+sscanf(optPtr,
+       "Options: a) %99[^|] |b) %99[^|] |c) %99[^|] |d) %99[^\n]",
+       options[0],
+       options[1],
+       options[2],
+       options[3]);
 
     // original correct answer
     char correctAns = aline[0];
