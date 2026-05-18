@@ -60,3 +60,141 @@ Two students appeared at an examination. One of them secured 9 marks more than t
 What is the probability of getting a sum 9 from two throws of a dice? Options: a) 1/6 |b) 1/9 |c) 1/8 |d) 5/7
 In how many different ways can the letters of the word 'LEADING' be arranged in such a way that the vowels always come together? Options: a) 360 |b) 480 |c) 720 |d) 5040
 Today is Monday. After 61 days, it will be: Options: a) Wednesday |b) Saturday |c) Tuesday |d) Thursday
+For some integer m, which of the following form is odd integer? Options:a) m |b) m + 1 |c) 2m |d) 2m + 1
+Two lines are perpendicular if the product of their slopes is Options:a) 0 |b) 1 |c) -1 |d) 2
+Graphically, the pair of equation 6x - 3y + 10 = 0 and 2x - y + 9 = 0 represents two lines which are, Options:a) Intersecting at exactly one point |b) Intersecting at exactly two points |c) Coincident |d) Parallel
+In the given figure, ∠T and ∠B are right angles. If the length of AT, BC and AS are 15, 16 and 17 cm respectively, then the length of TC is, Options:a) 18 cm |b) 16 cm |c) 19 cm |d) 12 cm
+If |A| = 0, then A is, Options:a) zero matrix |b) singular matrix |c) non-singular matrix |d) identity matrix
+Two bicycles were sold for Rs. 3990 each, gaining 5% on one and losing 5% on the other. The gain or loss percent on the whole transaction is, Options:a) Neither gain nor loss |b) 2.5% gain |c) 2.5% loss |d) 0.25% loss
+If 72 × 96 = 6927, 58 × 87 = 7885, then 79 × 86 is, Options:a) 7689 |b) 8976 |c) 6897 |d) 6978
+A ladder 15 meters long just reaches the top of a vertical wall. If the ladder makes an angle of 60° with the wall, then the height of the wall will be, Options:a) 7.5 m |b) 7.7 m |c) 8.5 m |d) 8.8 m
+The famous mathematician associated with finding the sum of the first 100 natural numbers is, Options:a) Pythagoras |b) Newton |c) Gauss |d) Euclid
+A TV is purchased at Rs. 5000 and sold at Rs. 4000, the loss percent is, Options:a) 10% |b) 20% |c) 25% |d) 28%
+If the cost price is 25% of selling price, then the profit percent is, Options:a) 75% |b) 200% |c) 300% |d) 25%
+A man buys an item at Rs. 1200 and sells it at the loss of 20 percent. Then what is the selling price of that item? Options:a) Rs. 660 |b) Rs. 760 |c) Rs. 860 |d) Rs. 960
+The mean of the data: 4, 10, 5, 9, 12 is, Options:a) 8 |b) 10 |c) 9 |d) 15
+A dice is thrown in the air. The probability of getting odd numbers is, Options:a) 1/2 |b) 3/4 |c) 3 |d) 4
+If we throw two coins in the air, then the probability of getting both tails will be, Options:a) 1/2 |b) 1/4 |c) 2 |d) 4
+The distance of point A(2,4) from x-axis is, Options:a) 2 |b) 4 |c) -2 |d) -4
+A function f(x) is said to be an odd function if, Options:a) f(-x)=f(x) |b) f(-x)=-f(x) |c) f(-x)=k f(x) where k is a constant |d) f(-x)=k+f(x) where k is an odd number
+The number of subsets of a set containing n elements is, Options:a) 0 |b) 2^n |c) 2^{n-1} |d) 2n
+What is the value of \sqrt{49} ? Options: a) 5 b) 6 c) 7 d) 8
+Simplify \sqrt{16} + \sqrt{9} Options: a) 5 b) 7 c) 9 d) 10
+What is the value of (\sqrt{4}+\sqrt{9})^2 ? Options: a) 25 b) 16 c) 36 d) 49
+Evaluate \sum_{n=1}^{5} n Options: a) 10 b) 15 c) 20 d) 25
+Evaluate \sum_{n=1}^{4} n^2 Options: a) 20 b) 30 c) 25 d) 16
+Find the value of \int_{0}^{2} x dx Options: a) 1 b) 2 c) 3 d) 4
+Evaluate \int_{1}^{3} x^2 dx Options: a) 8 b) 9 c) 26/3 d) 12
+What is the value of \sqrt{81} ? Options: a) 7 b) 8 c) 9 d) 10
+Simplify (\sqrt{25}+\sqrt{36})^2 Options: a) 100 b) 121 c) 144 d) 169
+Evaluate \sum_{n=1}^{3} 2n Options: a) 6 b) 9 c) 12 d) 15
+Find the value of \int_{0}^{1} x^3 dx Options: a) 1/2 b) 1/3 c) 1/4 d) 1
+What is the value of \sqrt{64}+\sqrt{36} ? Options: a) 10 b) 12 c) 14 d) 16
+Evaluate \sum_{n=1}^{6} n Options: a) 18 b) 20 c) 21 d) 24
+Find the value of \int_{0}^{3} 2x dx Options: a) 6 b) 9 c) 12 d) 18
+Simplify (\sqrt{16}+\sqrt{25})^2 Options: a) 81 b) 64 c) 100 d) 121
+Which of the following is correct? Options: a) sin^2 x / x = 1 |b) sin x / x = 1 |c) cos x / x = 1 |d) sin x / x = 1
+Semi-perimeter of triangle whose sides are 2 cm, 3 cm and 5 cm is a) 2 cm b) 3 cm c) 5 cm d) 10 cm
+If p and q are two different prime numbers then LCM(p,q) is Options: a) p+q |b) p |c) q |d) pq
+If a+1, 2a+1, 4a-1 are in AP, then value of a is Options: a) 1 |b) 2 |c) 3 |d) 4
+(a+b)^2 + (a-b)^2 is equal to Options: a) a^2+b^2 |b) 2(a^2+b^2) |c) a^2-b^2 |d) 2(a^2-b^2)
+The angle formed by the radius of a circle and a tangent to that circle has measure of Options: a) 45 degree |b) 90 degree |c) 135 degree |d) 180 degree
+Slope of a line perpendicular to the line whose equation is 3x+4y=9 is Options: a) 3/4 |b) -4/3 |c) -3/4 |d) 4/3
+The p/q form of the decimal 0.875 is Options: a) 7/8 |b) 7/16 |c) 3/8 |d) 7/4
+Which one of the following is irrational number Options: a) 2/3 |b) \sqrt{16} / 25 |c) \sqrt{8} |d) \sqrt{0.04}
+The x-intercept and y-intercepts of a straight line 2x+3y=6 are Options: a) 3 and 2 |b) 2 and 3 |c) both 6 |d) -3 and -2
+If cos A=4/5 then value of tan A is Options: a) 3/5 |b) 5/4 |c) 5/3 |d) 3/4
+A person took a loan of Rs.1500 from his employer for 3 months at 12% per annum simple interest. The amount he has to return is Options: a) Rs.45 |b) Rs.1454 |c) Rs.1545 |d) Rs.1554
+The area of circle is 314 cm^2. If pi=3.14, then its diameter is Options: a) 100 cm |b) 50 cm |c) 20 cm |d) 10 cm
+The total surface area of a closed right circular cylinder of radius 3.5 m and height 7 m is Options: a) 77 m^2 |b) 154 m^2 |c) 231 m^2 |d) 308 m^2
+If volume of a cube is 1728 m^3 then its surface area is Options: a) 864 m^2 |b) 846 m^2 |c) 144 m^2 |d) 72 m^2
+If f(x)=4x-2, then f(x-1) is Options: a) 4x^2-6x+2 |b) 4x^2+2x+2 |c) 4x-6 |d) 4x-1
+If 3^x+5=1/27 then value of x is Options: a) -10 |b) -8 |c) -6 |d) -2
+If cos60 degree=1/2, then the value of cos300 degree is Options: a) \sqrt{3}/2 |b) -1/2 |c) -\sqrt{3}/2 |d) 1/2
+The zeroes of quadratic polynomial x^2+7x+12 are Options: a) -2,-5 |b) -3,-4 |c) 2,5 |d) 3,4
+The lines pair 2x+4y=3 and x+2y=1 are Options: a) coincident |b) perpendicular |c) parallel |d) intersect at a point
+Slope of a line perpendicular to the line 20x-2y=6 is Options: a) -10 |b) -1/10 |c) 10 |d) 1/10
+In given triangle ABC if side BC is extended to point D with angle A=x, angle B=2x+15 and angle ACD=5x+5, then angle B is Options: a) 5 |b) 20 |c) 25 |d) 55
+If height and diameter of a cylinder are 15 cm and 12 cm respectively then its volume is Options: a) 180pi cm^3 |b) 540pi cm^3 |c) 675pi cm^3 |d) 2160pi cm^3
+What is the perimeter of a square whose diagonal is 3\sqrt{2} ? Options: a) 18 b) 12 c) 9 d) 6
+The 5th term of the sequence an=(2n-1) is Options: a) 9 |b) 5 |c) 7 |d) 8
+2^n+1 / 2^n-2 is equal to Options: a) (n+1)/(n-2) |b) 1/8 |c) -1/2 |d) 8
+The derivative of x^3 with respect to x^2 is Options: a) 2x/3 |b) x |c) 3x/2 |d) 3/2x
+The value of \sqrt{-8} x \sqrt{2} is Options: a) -4 b) 4 c) 4i d) -4i
+If U={1,2,3,4,5,6} and A={2,3,5} then A complement is Options: a) {1,4,6} |b) {1,2,3,4,5,6} |c) {2,3,5} |d) {1,3,5,6}
+The opposite angles of any quadrilateral inscribed in circle are Options: a) tangent |b) supplementary |c) complementary |d) reflective
+If a set has 5 elements, then possible number of subsets are Options: a) 30 |b) 120 |c) 32 |d) 25
+If the slope of line joining (1,2) and (k,-5) is equally inclined with both the axes, then the value of k is Options: a) 6 |b) -6 |c) 3 |d) -2
+What is the value of cot90 degree? Options: a) 3 |b) 1/2 |c) 0 |d) 1
+What is the probability of drawing a queen when one card is drawn randomly from a well shuffled pack of 52 cards? Find the probability of drawing a red queen? Options: a) 1/26 |b) 5/6 |c) 3/4 |d) 15/36
+If A,B,C are the subsets of a universal set U. Then A-(BUC) is equal to, Options: a) (A-B)U(A-C) |b) (A-B)n(A-C) |c) (AnB)-(AnC) |d) (AUB)-(AUC)
+Of a group of 120 students, 90 takes mathematics and 72 takes statistics. If 10 students neither of two, the number of student taking both subjects are: Options: a) 50 |b) 45 |c) 52 |d) 58
+-5<x<7 can be written in the absolute value sign as: Options: a) |x-1|<7 |b) |x-1|<6 |c) |x-1|<2 |d) |x-1|<-1
+If the relation R={(1,2),(2,3),(3,4),(4,5)} then its range is, Options: a) {2,3,4,5} |b) {1,2,3,4} |c) {1,2,3,5} |d) {1,3,4,5}
+The value of tan180 degree is equal to, Options: a) 1 |b) -1 |c) 0 |d) infinity
+1^2+2^2+3^2+........+n^2 is equal to, Options: a) n(n+1)/2 |b) n(n+1)(2n+1)/6 |c) {(n+1)/2}^2 |d) None of the above
+If a matrix A=((0,5,-6),(-5,0,2),(6,-2,0)), then matrix A is known as Options: a) Symmetric Matrix |b) Skew-Symmetric Matrix |c) Diagonal Matrix |d) Triangular Matrix
+The radius of the circle x^2+y^2=9 is equal to, Options: a) 4 |b) 3 |c) 5 |d) 9
+The value of 2\sqrt{128}+\sqrt{162} is, Options: a) 25\sqrt{2} |b) 4\sqrt{3} |c) 0 |d) 60
+If A=((1,2),(3,1)), then the value of A^2-2A-5I is equal to, Options: a) 1 |b) -1 |c) 2 |d) 0
+What is the half of quarter of 400? Options: a) 200 |b) 100 |c) 50 |d) 90
+Half percent, written as decimal is, Options: a) 0.2 |b) 0.02 |c) 0.005 |d) 0.05
+The true discount on Rs.2562 due 4 months hence is Rs.122. The rate percent is: Options: a) 12% |b) 13% |c) 14% |d) 15%
+The percentage increase in the area of a rectangle, if each of its sides is increased by 20% is: Options: a) 40% |b) 42% |c) 44% |d) 46%
+AB and CD bisect each other at O. If AD=6 cm, BC is: Options: a) 5.9 cm |b) 6 cm |c) 4.8 cm |d) 7 cm
+The compound interest on Rs.30000 at 7% per annum is Rs.4347. The period (in years) is: Options: a) 2 |b) 3 |c) 4 |d) 8
+If a man were to sell his chair Rs.720, he would lose 25% to gain 25%. He would sell it for: Options: a) Rs.1200 |b) Rs.1000 |c) Rs.960 |d) Rs.900
+The true discount on Rs.2562 due 4 months hence is Rs.122. The rate percent is: Options: a) 12% |b) 13% |c) 14% |d) 15%
+The percentage increase in the area of a rectangle, if each of its sides is increased by 20% is: Options: a) 40% |b) 42% |c) 44% |d) 46%
+AB and CD bisect each other at O. If AD=6 cm, BC is: Options: a) 5.9 cm |b) 6 cm |c) 4.8 cm |d) 7 cm
+The compound interest on Rs.30000 at 7% per annum is Rs.4347. The period (in years) is: Options: a) 2 |b) 3 |c) 4 |d) 8
+If a man were to sell his chair Rs.720, he would lose 25% to gain 25%. He would sell it for: Options: a) Rs.1200 |b) Rs.1000 |c) Rs.960 |d) Rs.900
+What is the tax rate if original price is Rs.2000 and selling price is Rs.2400? Options: a) 20% |b) 17.39% |c) 35% |d) 10%
+The sum of the ages of father and his son is 52 years. Eight years ago the father was eight times as old as his son, the present age of son is, Options: a) 10 years |b) 20 years |c) 12 years |d) 15 years
+If 4 is subtracted from a square of a number, its result is 21. The number is, Options: a) 5 |b) 4 |c) 6 |d) 3
+The radius of the circle x^2+y^2-12x-4y=9 is equal to, Options: a) 18 |b) 7 |c) 10 |d) 2
+The system of linear equation will be consistent and independent if they have, Options: a) exactly one solution |b) more than one solution |c) no solution |d) none of these
+Let a and b are two numbers on the real line. If (a,b]={x:a<x<=b} is known as, Options: a) left open interval |b) right open interval |c) closed interval |d) open interval
+Let f:R->R and g:R->R be defined by f(x)=2x^2-3, g(x)=3x+2. Then the composite functions gof(x) is, Options: a) 9x+8 |b) 2x+2 |c) 2x+1 |d) 6x^2-7
+A square matrix A is said to be singular if its determinant is equal to, Options: a) 1 |b) 0 |c) -1 |d) none of these
+The system of equations 4x-3y=-6,-4x+2y=16 is, Options: a) consistent and dependent |b) inconsistent and independent |c) inconsistent and dependent |d) consistent and independent
+Ratio of 2 km to 600 m should be, Options: a) 2:7 |b) 2:8 |c) 2:3 |d) 10:3
+In a:b=c:d, then b and c are called, Options: a) antecedent |b) extreme |c) consequent |d) mean
+If b^2-4ac<0 then the roots of ax^2+bx+c=0 are: Options: a) equal |b) rational |c) irrational |d) imaginary
+A polygon having 10 sides is called, Options: a) decagon |b) heptagon |c) quadrilateral |d) hexagon
+Linear equation is also known as, Options: a) simultaneous equation |b) second degree equation |c) first degree equation |d) zero degree equation
+Two straight lines in same plane which never meet are called, Options: a) angles |b) transversal lines |c) vertex |d) parallel line
+If x^4-3x+5 is divided by 2x-1, then remainder is, Options: a) 35/16 |b) -35/16 |c) -9 |d) 3
+If A,G,H are arithmetic, geometric and harmonic means between a and b, Options: a) in G.P |b) in A.P |c) real numbers |d) in H.P
+In selling an article for Rs.76, a shopkeeper gain 52%. The gain by selling that for Rs.74 is Options: a) 45% |b) 48% |c) 49% |d) 50%
+Ram bought oranges at 6 for Rs.10 and sold them at 4 for Rs.6, find his loss percent Options: a) 12% |b) 8% |c) 6% |d) 10%
+Which of the following is incorrect? Options: a) A.M=ab |b) G.M=2ab/(a+b) |c) H.M=(a+b)/2 |d) none of these
+By giving a discount of 10% on the marked price of Rs.1100 of a mobile phone a dealer gains 10%, then the cost price is Options: a) Rs.950 |b) Rs.900 |c) Rs.1000 |d) Rs.1050
+Rama purchased a table in Rs.1260 and due to some damage on its top, she had to sell it for Rs.1197, Options: a) 20% |b) 15% |c) 10% |d) 5%
+A shopkeeper purchases 11 pens for Rs.10 and sells them at 10 for Rs.11, then the profit is, Options: a) 18% |b) 19% |c) 20% |d) 21%
+If A=((1,0,0),(0,1,0),(0,0,1)), then A is Options: a) unit matrix |b) singular matrix |c) symmetric |d) all of them are true
+If 5/7 of a number is 1025, then 3/7 of number is, Options: a) 735 |b) 430 |c) 615 |d) 560
+The new second is 1/3 hours is, Options: a) 4800 |b) 4700 |c) 4900 |d) 5000
+The 4m wide carpet is used for carpeting a room of 8m long and 3m wide, then what is the length of carpet, Options: a) 5m |b) 6m |c) 2m |d) 3m
+Hari ranks seventh from the top and twenty sixth from the bottom in a class. Then the total number of students in a class are, Options: a) 36 |b) 35 |c) 31 |d) 32
+If three girls write 3 pages in 3 minutes, in how many minutes can one girl write one page, Options: a) 4 min |b) 5 min |c) 3 min |d) 6 min
+The root of the equation 3x^2 - 8x + 16 = 0 are, Options: a) real & equal |b) real & unequal |c) imaginary & unequal |d) none of these
+By selling 50 apples, the seller gains in selling price of 30 apples, then gain percentage is, Options: a) 25% |b) 30% |c) 12% |d) 20%
+A vendor purchases lemons at Rs. 5/- per lemon, at what price vendor will sell lemon to gain 20% profit, Options: a) Rs. 4/- |b) Rs. 5/- |c) Rs. 6/- |d) Rs. 7/-
+The slope of line x+y=1 is, Options: a) -(a/b) |b) -(b/a) |c) ab |d) -(1/ab)
+If x=4y, what percentage of x is y, Options: a) 20% |b) 40% |c) 30% |d) 25%
+If the cost of 9 kg sugar is Rs. 270/-, how much sugar can be purchased for Rs. 390/-, Options: a) 11 |b) 12 |c) 13 |d) 14
+If 3 bananas cost 50 cents, how many bananas can be bought for 20 dollars, Options: a) 120 |b) 115 |c) 110 |d) 130
+If x+y=12 and x-y=6 then the value of x^2-y^2 is, Options: a) 18 |b) 36 |c) 60 |d) 72
+If x-5=2, then the value of x+12 is, Options: a) 15 |b) 17 |c) 19 |d) 18
+If the sum of two numbers is 25 and their difference is 7, then the numbers are, Options: a) 16 and 9 |b) 15 and 10 |c) 18 and 7 |d) 20 and 5
+The value of \sqrt{144} + \sqrt{81} is, Options: a) 19 |b) 21 |c) 23 |d) 25
+If x^2 - 9x + 20 = 0, then the roots are, Options: a) 4 and 5 |b) 2 and 10 |c) 3 and 7 |d) 1 and 20
+The area of a circle having radius 7 cm is, Options: a) 154 cm^2 |b) 144 cm^2 |c) 49 cm^2 |d) 308 cm^2
+If the cost price of an article is Rs. 500 and selling price is Rs. 650, then profit percentage is, Options: a) 20% |b) 25% |c) 30% |d) 35%
+A train travels 180 km in 3 hours. Its speed is, Options: a) 40 km/hr |b) 50 km/hr |c) 60 km/hr |d) 70 km/hr
+The simple interest on Rs. 2000 at 10% per annum for 2 years is, Options: a) Rs. 200 |b) Rs. 300 |c) Rs. 400 |d) Rs. 500
+The average of 10, 20, 30, 40 and 50 is, Options: a) 25 |b) 30 |c) 35 |d) 40
+\int_{0}^{2} x^2 dx, Options: a) 8/3 |b) 4 |c) 2 |d) 16/3
+\int_{1}^{3} 2x dx, Options: a) 6 |b) 8 |c) 10 |d) 12
+Evaluate \int_{0}^{2} 2x^3 dx, Options: a) 4 |b) 6 |c) 8 |d) 10
