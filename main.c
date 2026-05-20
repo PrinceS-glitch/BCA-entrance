@@ -13,6 +13,8 @@ void renderLatex(char *line);
 void shuffleOptions(char options[4][100], char *correctAns);
 void authenticity_check(char username[],char password[]);
 void updateScore(int newScore);
+void resetScore();
+void seeScore();
 
 int qCount=0;   
  
@@ -29,6 +31,8 @@ int main() {
     printf("a) Login\n");
     printf("b) Register\n");
     printf("c) Exit\n");
+    printf("d) Reset score\n");
+    printf("e) See score\n");
 
 
 /////////////-- User's choice-////////////
@@ -45,6 +49,13 @@ int main() {
         printf("Hope you return soon\n");
         exit(0);
     }
+    else if (strcmp(choice, "d") == 0 || strcmp(choice, "Reset score") == 0) {
+        resetScore();
+    }
+    else if (strcmp(choice, "e") == 0 || strcmp(choice, "See score") == 0) {
+        seeScore();
+    }
+    
     else {
         printf("Invalid choice\n");
     }
@@ -64,6 +75,14 @@ void login() {
 
     printf("Login attempted with Username: %s\n", username);
     authenticity_check(username,password);
+}
+void resetScore(){
+
+}
+void seeScore(){
+    FILE *fp;
+    fp=fopen("score.txt","r");
+
 }
 
 void add() {         //////////--register-////////

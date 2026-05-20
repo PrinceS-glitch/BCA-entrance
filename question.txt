@@ -63,7 +63,7 @@ Today is Monday. After 61 days, it will be: Options: a) Wednesday |b) Saturday |
 For some integer m, which of the following form is odd integer? Options:a) m |b) m + 1 |c) 2m |d) 2m + 1
 Two lines are perpendicular if the product of their slopes is Options:a) 0 |b) 1 |c) -1 |d) 2
 Graphically, the pair of equation 6x - 3y + 10 = 0 and 2x - y + 9 = 0 represents two lines which are, Options:a) Intersecting at exactly one point |b) Intersecting at exactly two points |c) Coincident |d) Parallel
-In the given figure, ∠T and ∠B are right angles. If the length of AT, BC and AS are 15, 16 and 17 cm respectively, then the length of TC is, Options:a) 18 cm |b) 16 cm |c) 19 cm |d) 12 cm
+A mobile is sold for Rs.11000, with a profit of Rs.1000, then the percentage profit is Options: a) 9% |b) 10% |c) 12% |d) 14%
 If |A| = 0, then A is, Options:a) zero matrix |b) singular matrix |c) non-singular matrix |d) identity matrix
 Two bicycles were sold for Rs. 3990 each, gaining 5% on one and losing 5% on the other. The gain or loss percent on the whole transaction is, Options:a) Neither gain nor loss |b) 2.5% gain |c) 2.5% loss |d) 0.25% loss
 If 72 × 96 = 6927, 58 × 87 = 7885, then 79 × 86 is, Options:a) 7689 |b) 8976 |c) 6897 |d) 6978
@@ -398,3 +398,203 @@ Which one is correct? Options: a) I visit him in the supermarket sometimes |b) I
 Travelling to the remote places ............ important because it is adventurous. Options: a) is |b) are |c) was |d) were
 Krishna could not ............ the branch off the tree. Options: a) break |b) brake |c) broke |d) break
 'The Selfish Giant' is a short story for children written by Options: a) Oscar Wilde |b) Leo Tolstoy |c) Chinua Achebe |d) R.K. Narayan
+Nepal was hit by the 7.8 magnitude Earthquake on: Options: a) 2072 Baisakh 10 |b) 2072 Baisakh 11 |c) 2072 Baisakh 12 |d) 2072 Baisakh 13
+The new constitution of Nepal, "Nepal Ko Sambidhan" was released on: Options: a) 2072 Asoj 4 |b) 2072 Asoj 3 |c) 2072 Asoj 2 |d) 2072 Asoj 1
+Who is the writer of Novel Ek Chihan? Options: a) Hridaychandra Singh Pradhan |b) Krishnachandra Singh Pradhan |c) Bijay Bahadur Malla |d) Parijat
+Kusti is played on: Options: a) Ground |b) Court |c) Ring |d) Akhada
+Who is considered as the father of computer? Options: a) Charles Babbage |b) Bill Gates |c) Mark Zuckerberg |d) Chris Hughes
+Which one of the following is the database program? Options: a) MySQL |b) MS-Excel |c) MS-Word |d) MS-Outlook
+What is the full form of LCD? Options: a) Light and Clear Display |b) Liquid Cristal Display |c) Light Cristal Display |d) Liquid Clear Display
+Which is the first bank in Nepal? Options: a) Nepal Bank Limited |b) Rastriya Banijya Bank |c) Nepal Investment Bank |d) Nepal Rastra Bank
+Which of the following field is not awarded by Noble Prize? Options: a) Computer Science |b) Physics |c) Economics |d) Literature
+How many provinces (Pradesh) are in Nepal according to the new constitution? Options: a) 5 |b) 7 |c) 8 |d) 9
+When did the new constitute of Nepal "Nepal Ko Sambidhan" was released? Options: a) 2072 Ashoj 4 |b) 2072 Ashoj 3 |c) 2072 Ashoj 2 |d) 2072 Ashoj 1
+Who is known as "Father of Computer"? Options: a) Charles Babbage |b) Bill Gates |c) Mark Zuckerberg |d) John V Neumann
+Which one of the following discipline is not awarded by noble prize? Options: a) Literature |b) Economics |c) Physics |d) Computer Science
+Which one of the following belongs to SSD? Options: a) RAM |b) ROM |c) Cache Memory |d) Mass Storage
+Who won the FIFA World Cup 2018 held in Russia? Options: a) England |b) Croatia |c) France |d) Germany
+Which one of the following is not an output device? Options: a) OCR |b) Plotter |c) Monitor |d) Printer
+What is the scientific name of human? Options: a) Rana Tigrina |b) Homosepian |c) Felis Catus |d) Rattus
+Which one of the following is the deepest river of the Nepal? Options: a) Karnali |b) Koshi |c) Mahakali |d) Gandaki
+Who was the first prime minister of Nepal? Options: a) Janga Bahadur Rana |b) Matrika Prasad Koirala |c) Bhimsen Thapa |d) Mathabar Sing Thapa
+Who is the writer of the Nepal novel "Basain"? Options: a) Lil Bahadur Kshetri |b) Ramlal Joshi |c) Gopal Prasad Rimal |d) Lokendra Bahadur Chand
+The famous Muktinath Temple is situated in: Options: a) Tanahun |b) Makwanpur |c) Mustang |d) Gorkha
+The longest river in the world is: Options: a) Nile |b) Ganga |c) Amazon |d) Indus
+In computer abbreviation of 'OS' usually means? Options: a) Order Significance |b) Open Software |c) Operating System |d) Optical Sensor
+What day was yesterday, if Monday is in two days? Options: a) Wednesday |b) Thursday |c) Friday |d) Saturday
+Which district lie in state number 3? Options: a) Helambu |b) Birgunj |c) Tanahun |d) Lumbini
+How many bits equal to one byte? Options: a) 4 |b) 16 |c) 8 |d) 32
+Who won the FIFA World Cup 2018? Options: a) Croatia |b) Russia |c) Argentina |d) France
+What is the term to ask the computer to put information in order numerically or alphabetically? Options: a) Crop |b) Report |c) sort |d) Record
+How many districts are there in Nepal? Options: a) 75 |b) 73 |c) 77 |d) 76
+Which one of the following is not a part of the internet? Options: a) WWW |b) E-mail |c) CDROM |d) HTTP
+The famous Halesi mahadev temple is situated in: Options: a) Taplejung |b) Khotang |c) Sarlahi |d) Morang
+The oldest flag in the world is of: Options: a) Italy |b) Russia |c) Denmark |d) China
+The Guitar was firstly introduced from: Options: a) Spain |b) Germany |c) France |d) America
+In Computer abbreviation of AI usually means? Options: a) Art info |b) Artificial Intelligence |c) Artificial interest |d) artificial internet
+Who is the current vise chancellor of the Tribhuvan University? Options: a) Dilli Pd. Sapkota |b) Shivalai Bhusal |c) Ram pd. Khatiwada |d) Tirtha Khaniya
+The national game of Bhutan is: Options: a) Cricket |b) Archery |c) Bull fighting |d) Football
+The CEO of Apple is: Options: a) Satya Nadela |b) Tim Cook |c) Warren Buffet |d) Sundar Pichai
+What is the capital of Brazil? Options: a) Brasilia |b) Rio the janeiro |c) Sao paulo |d) Salvador
+Who is the Captain of Nepal's National Football team? Options: a) Anil Gurung |b) Bimal Gharti Magar |c) Bharat Khawas |d) Kiran Chemjong
+Which country is known as the 'Gift of Nile'? Options: a) Iraq |b) Iran |c) Egypt |d) Italy
+What is the full form of pdf? Options: a) portable document format |b) permanent document formats |c) partial document format |d) partial document formation
+Which is not part of CPU? Options: a) memory |b) Processor |c) keyboard |d) arithmetic logic unit
+Which is the earliest counting and calculating device for making calculation? Options: a) Napier's Bone |b) Abacus |c) Slide rule |d) Difference Engines
+When did Nepalese government published new map including Limiyadura, Kalapani and lipulekh? Options: a) 2077 Jestha 5 |b) 2077 Jestha 01 |c) 2077 Ashad 7 |d) 2077 jestha 9
+What is the recent height of mt. Everest? Options: a) 8848.86m |b) 8848.05m |c) 8848m |d) 8850m
+Who is the author of karnali Blues? Options: a) Amar neupane |b) Buddhi sagar |c) parijat |d) Laxmi Prasad devkota
+Who is the present education minister of Nepal? Options: a) Narayan khadka |b) Prem Ale |c) Devendra paudel |d) Bal Krishna khadka
+What is the scientific name of frog? Options: a) Serpentes |b) Cercopithecidae |c) Anura |d) Homo Sapiens
+The famous Mukthinath Temple is situated in: Options: a) Tanahun |b) Makawanpur |c) Mustang |d) Gorkha
+The longest river in the world is: Options: a) Nile |b) Ganga |c) Amazon |d) Indus
+What is the full form of WWW? Options: a) Well Wired Work |b) World Web Wide |c) World Wide Web |d) Word Windows Work
+Which is not a input device? Options: a) Mouse |b) Light Pen |c) Printer |d) Scanner
+The day before the day before yesterday is three days after Saturday is: Options: a) Friday |b) Thursday |c) Wednesday |d) Sunday
+A and B are brothers, C and D are sisters A's sons is D's brother. How is B related to C? Options: a) Father |b) Brother |c) Grandfather |d) Uncle
+What is the area of Nepal? Options: a) 147,516 sq.km |b) 147,316 sq.km |c) 147,416 sq.km |d) 147,616 sq.km
+Who is the author of Palpasa Cafe? Options: a) Amar Neupane |b) Buddhi Sagar |c) Narayan Wagle |d) Laxmi Prasad Devkota
+How many total teams are going to participate in FIFA World Cup 2022? Options: a) 34 |b) 31 |c) 35 |d) 32
+What temperature is water the dense? Options: a) 3.98° |b) 3.76° |c) 3.70° |d) 3.50°
+The famous Shashwat Dham Temple is situated in: Options: a) Tanahun |b) Makawanpur |c) Nawalparasi |d) Gorkha
+Which is the first WiFi-free district of Nepal? Options: a) Parsa |b) Darchula |c) Kaski |d) Myagdi
+Which programming language is often used for web development? Options: a) Java |b) Python |c) HTML |d) C++
+What does the abbreviation "URL" stand for in the context of the internet? Options: a) Uniform Resource Locator |b) Universal Routing Language |c) Unique Resource Link |d) User Registration Link
+What is the process by which plants make their own food using sunlight? Options: a) Respiration |b) Photosynthesis |c) Digestion |d) Fermentation
+What is the largest mammal in the world? Options: a) Elephant |b) Blue Whale |c) Giraffe |d) Rhinoceros
+Who is the current Secretary-General of the United Nations as of September 2023? Options: a) Ban Ki-moon |b) Antonio Guterres |c) Kofi Annan |d) Nikki Haley
+Mount Everest, the world's highest peak, is part of which mountain range in Nepal? Options: a) Annapurna Range |b) Langtang Range |c) Khumbu Himal |d) Dhaulagiri Range
+The United Nations Sustainable Development Goals (SDGs) are a global framework aimed at addressing various global challenges, including poverty, inequality, and climate change. How many SDGs are there in total? Options: a) 12 |b) 15 |c) 17 |d) 20
+Which famous mountaineer from Nepal became the first person to climb Mount Everest without supplemental oxygen in 1980? Options: a) Tenzing Norgay |b) Pasang Lhamu Sherpa |c) Reinhold Messner |d) Junko Tabei
+Who is the captain of the Nepal national football team as of September 2023? Options: a) Anil Gurung |b) Kiran Chemjong |c) Bharat Khawas |d) Rohit Chand
+In recent years, Nepal has been facing challenges related to the conservation of which endangered species? Options: a) Bengal Tigers |b) Snow Leopards |c) Red Pandas |d) Asian Elephants
+Who is known as "Father of Computer"? Options: a) Charles Babbage |b) Bill Gates |c) Mark Zuckerberg |d) John V Neumann
+Which one of the following discipline is not awarded by noble prize? Options: a) Literature |b) Economics |c) Physics |d) Computer Science
+Which one of the following belongs to SSD? Options: a) RAM |b) ROM |c) Cache Memory |d) Mass Storage
+Who won the FIFA World Cup 2018 held in Russia? Options: a) England |b) Croatia |c) France |d) Germany
+Which one of the following is not an output device? Options: a) OCR |b) Plotter |c) Monitor |d) Printer
+What is the scientific name of human? Options: a) Rana Tigrina |b) Homosepian |c) Felis Catus |d) Rattus
+Which one of the following is the deepest river of the Nepal? Options: a) Karnali |b) Koshi |c) Mahakali |d) Gandaki
+Who was the first prime minister of Nepal? Options: a) Janga Bahadur Rana |b) Matrika Prasad Koirala |c) Bhimsen Thapa |d) Mathabar Sing Thapa
+Who is the writer of the Nepal novel "Basain"? Options: a) Lil Bahadur Kshetri |b) Ramlal Joshi |c) Gopal Prasad Rimal |d) Lokendra Bahadur Chand
+The longest river in the world is, Options: a) Nile |b) Ganga |c) Amazon |d) Indus
+In computer abbreviation of 'OS' usually means? Options: a) Order Significance |b) Open Software |c) Operating System |d) Optical Sensor
+What day was yesterday, if Monday is in two days? Options: a) Wednesday |b) Thursday |c) Friday |d) Saturday
+Which district lie in state number 3? Options: a) Helambu |b) Birgunj |c) Tanahun |d) Lumbini
+How many bits equal to one byte? Options: a) 4 |b) 16 |c) 8 |d) 32
+Who won the FIFA World Cup 2018? Options: a) Croatia |b) Russia |c) Argentina |d) France
+What is the term to ask the computer to put information in order numerically or alphabetically? Options: a) Crop |b) Report |c) sort |d) Record
+How many districts are there in Nepal? Options: a) 75 |b) 73 |c) 77 |d) 76
+Which one of the following is not a part of the internet? Options: a) WWW |b) E-mail |c) CDROM |d) HTTP
+Who is the author of the novel 'Seto Dharti'? Options: a) Amar Neupane |b) Subin Bhattarai |c) Buddhisagar |d) Jhamak Ghimire
+When was Tri-Chandra College established? Options: a) 1985 BS |b) 1975 BS |c) 1990 BS |d) 2016 BS
+What is the full form of PDF in computer file? Options: a) Processed Document File |b) Protected Document Format |c) Partial Document File |d) Portable Document Format
+Who was the first programmer in computer? Options: a) Charles Babbage |b) Lady Ada Lovelace |c) Bill Gates |d) John Napier
+How many players are there in Cricket? Options: a) 6 |b) 8 |c) 11 |d) 15
+Who discovered the America? Options: a) Shakespeare |b) Columbus |c) George Washington |d) Michael Gorbachov
+Who was the first prime minister of Nepal? Options: a) Janga Bahadur Rana |b) Bir Shumsher |c) Bhimsen Thapa |d) Tanka Prasad Acharya
+The recent height of Mt. Everest is: Options: a) 8848 m |b) 8840 m |c) 8848.86 m |d) 8848.42 m
+How many districts are there in Nepal? Options: a) 74 |b) 75 |c) 77 |d) 76
+Which is the biggest province of Nepal? Options: a) Gandaki Pradesh |b) Sudurpashchim Pradesh |c) Karnali Pradesh |d) Bagmati Pradesh
+Who is the author of the novel 'Ghanchakkar'? Options: a) Sanjeev Uprety |b) Laxmi Prasad Devkota |c) Madhav Prasad Ghimire |d) Manjushree Thapa
+When was Tribhuvan University established? Options: a) 2016 BS |b) 2015 BS |c) 2022 BS |d) 2013 BS
+Which of the following is not input device? Options: a) Mouse |b) Scanner |c) Monitor |d) Keyboard
+Who is the father of computer? Options: a) Charles Babbage |b) Lady Ada Lovelace |c) Bill Gates |d) John Napier
+Boxing matches are held in a Options: a) Square |b) Ring |c) Court |d) Ground
+Who is the Prime Minister of Nepal? Options: a) Khadka Prasad Oli |b) Puspa Kamal Dahal |c) Shushil Koirala |d) Jhalnath Khanal
+Who is the Education Minister of Nepal? Options: a) Giriraj Mani Pokhrel |b) Yogesh Bhattarai |c) Lal Babu Pandit |d) Barsaman Pun
+Where is the tallest bridge of Nepal? Options: a) Baglung |b) Dang |c) Parbat |d) Bajang
+Cricket world cup stated in ............ Options: a) 1974 |b) 1975 |c) 1976 |d) 1977
+How many provinces are there in Nepal? Options: a) 3 |b) 9 |c) 7 |d) 8
+The study of sound & sound waves is called ............ Options: a) Mechanical |b) Technical |c) Acoustics |d) Sound Waves
+A river always has Options: a) Delta |b) Fishes |c) Boats |d) Banks
+Which is the international sports competition that is held only in Nepal? Options: a) Dandi Biyo |b) Elephant polo |c) Bhale judhai |d) Kabaddi
+Which mountain is understood by 'Killer Mountain'? Options: a) Manaslu |b) Ama Dablam |c) Cho Oyu |d) Kala Patthar
+Which of the following is necessary for 'knowledge'? Options: a) School |b) Teacher |c) Text book |d) Learning
+Two concepts are related in some way; establish the same relationship on the basis of the alternatives given for UTS : FDC :: WVU : ? Options: a) YWV |b) WXY |c) UVW |d) HGF
+Insert the appropriate arithmetical signs in (?,?) to establish the relation: 9 ? 6 ? 3 = 27 Options: a) +, × |b) -, + |c) ÷, + |d) +, ÷
+If LIGHT is coded as GILTH, find the code for RAINY. Options: a) IARYN |b) ARINY |c) NAIRY |d) RINAY
+A, B and C are intelligent, A, D and E are laborious, D, C and E are honest and A, B, and E are ambitious. Which of the following are not honest? Options: a) A and B |b) C and A |c) A and D |d) A and D
+Which of following is not a search engine? Options: a) Google |b) Altavista |c) Yahoo |d) Firefox Mozilla
+Name of the screen that recognizes touch input is : Options: a) Recog screen |b) Point Screen |c) Touch Screen |d) Android Screen
+Arrange in ascending order the units of memory TB, KB, GB, MB Options: a) TB>MB>GB>KB |b) MB>GB>TB>KB |c) TB>GB>MB>KB |d) GB>MB>KB>TB
+What is full form of WWW Options: a) World Wide Web |b) Wide World Web |c) Web Wide World |d) World Web Wide
+Junk email is also called Options: a) Spam |b) Spoof |c) Sniffer |d) Jmail
+Which of following is used to make presentation slides? Options: a) Powerpoint |b) Word |c) Excel |d) Internet
+Who is father of computer? Options: a) Charles Babbage |b) Balise Pascal |c) Garden Moore |d) John Von Neumann
+Which of following is used as a memory in computers? Options: a) RAM |b) Keyboard |c) Printer |d) Mouse
+MS-Word is an example of ............ Options: a) Operating System |b) Application Software |c) Output Device |d) Processing Device
+The printed output from a computer is known as ............ Options: a) Soft copy |b) Hard Copy |c) Photo Copy |d) Paper
+Analog computer works on the supply of Options: a) physical strength |b) natural strength |c) magnetic strength |d) continuous electrical pulses
+We can make use of the wild card entries such as ............ in Windows Explorer. Options: a) #,@ |b) , |c) ?,* |d) ?,#
+Which of the following is the second largest measurement of RAM? Options: a) Megabyte |b) Gigabyte |c) Byte |d) Terabyte
+Cache memory acts between Options: a) CPU and Hard disk |b) RAM and ROM |c) CPU and RAM |d) All of these
+Which of the following is billionth of a second? Options: a) Microsecond |b) Nanosecond |c) Terabyte |d) Gigabyte
+The Binary Coded Decimal (BCD) uses Options: a) 6 bits |b) 8 bits |c) 16 bits |d) 32 bits
+RAM is also called as Options: a) Virtual memory |b) Volatile memory |c) Non volatile memory |d) Cache memory
+CPU stands for Options: a) Central Planning Unit |b) Computer Planning Union |c) Computer Processing Unit |d) Central Processing Unit
+If you want to copy a portion of the text then you need to use Options: a) Control & C |b) Command & C |c) Control & V |d) Command and V
+Which one is not an operating system? Options: a) Windows |b) Linux |c) Unix |d) LaTex
+Who described his policy of unification as one of 'blood and iron'? Options: a) Hitler |b) Mazzini |c) Napoleon |d) Bismarck
+Who is known as the father of Modern Medicine? Options: a) Eratosthenes |b) Euclid |c) Pythagorus |d) Hippocrates
+Which of the following is the place of worship for Judaism? Options: a) Temple |b) Fire Temple |c) Chapel |d) Synagogue
+The hottest planet of the solar system is Options: a) Mercury |b) Venus |c) Mars |d) Jupiter
+The first word pronounced at the surface of the Moon during Apollo Expedition is Options: a) OK! |b) Yes! |c) Hurry! |d) Fine!
+The longest district of Nepal is Options: a) Kaverpalunchowk |b) Sindhupalunchowk |c) Parsa |d) Udaypur
+Which person had divided Nepal into 32 districts? Options: a) Chandra Samsher |b) Ranodip |c) Bir Samsher |d) Judhha Samsher
+The longest glacier of Nepal is Options: a) Khumbu |b) Lamtang |c) Upper Arun |d) Kanchanjangha
+Ravan of epic Ramayana had written two books. The name of one of those books is Options: a) Aranyakalya |b) Ravanakalya |c) Mahanatkan |d) Irwakakalya
+The founder of Tao Religion is Options: a) Kautilyas |b) Laoise |c) Ding |d) Fung
+Who invented the telephone? Options: a) Thomas Edison |b) Alexander Graham Bell |c) Nikola Tesla |d) Guglielmo Marconi
+What is the capital of Australia? Options: a) Sydney |b) Melbourne |c) Canberra |d) Brisbane
+Which planet is known as the Red Planet? Options: a) Venus |b) Jupiter |c) Mars |d) Saturn
+Who wrote the national anthem of India "Jana Gana Mana"? Options: a) Bankim Chandra Chattopadhyay |b) Rabindranath Tagore |c) Sarojini Naidu |d) Muhammad Iqbal
+What is the chemical symbol for gold? Options: a) Ag |b) Au |c) Fe |d) Pb
+Which is the largest ocean on Earth? Options: a) Atlantic Ocean |b) Indian Ocean |c) Arctic Ocean |d) Pacific Ocean
+Who painted the Mona Lisa? Options: a) Vincent van Gogh |b) Pablo Picasso |c) Leonardo da Vinci |d) Michelangelo
+What is the smallest prime number? Options: a) 0 |b) 1 |c) 2 |d) 3
+Which country is known as the Land of the Rising Sun? Options: a) China |b) South Korea |c) Japan |d) Thailand
+What is the main component of natural gas? Options: a) Ethane |b) Propane |c) Methane |d) Butane
+Who discovered penicillin? Options: a) Louis Pasteur |b) Alexander Fleming |c) Robert Koch |d) Joseph Lister
+What is the hardest natural substance on Earth? Options: a) Gold |b) Iron |c) Diamond |d) Platinum
+Which river is the longest in the world? Options: a) Amazon |b) Nile |c) Yangtze |d) Mississippi-Missouri
+Who wrote "Romeo and Juliet"? Options: a) Charles Dickens |b) William Shakespeare |c) Jane Austen |d) Mark Twain
+What is the currency of Japan? Options: a) Yuan |b) Won |c) Yen |d) Rupee
+Which gas do plants absorb from the atmosphere? Options: a) Oxygen |b) Nitrogen |c) Carbon dioxide |d) Hydrogen
+Who was the first President of the United States? Options: a) Thomas Jefferson |b) Abraham Lincoln |c) George Washington |d) John Adams
+What is the speed of light in vacuum? Options: a) 300,000 km/s |b) 150,000 km/s |c) 500,000 km/s |d) 250,000 km/s
+Which is the largest continent by area? Options: a) Africa |b) North America |c) Asia |d) Europe
+Who discovered gravity? Options: a) Albert Einstein |b) Isaac Newton |c) Galileo Galilei |d) Johannes Kepler
+What is the national animal of India? Options: a) Lion |b) Elephant |c) Tiger |d) Leopard
+Which element has the atomic number 1? Options: a) Helium |b) Hydrogen |c) Lithium |d) Carbon
+Who wrote "The Republic"? Options: a) Aristotle |b) Socrates |c) Plato |d) Confucius
+What is the freezing point of water in Celsius? Options: a) 0°C |b) 100°C |c) -10°C |d) 32°C
+Which country has the largest population in the world? Options: a) India |b) United States |c) China |d) Indonesia
+Who invented the light bulb? Options: a) Nikola Tesla |b) Thomas Edison |c) Benjamin Franklin |d) Alexander Graham Bell
+What is the largest desert in the world? Options: a) Gobi |b) Kalahari |c) Sahara |d) Antarctic Desert
+Which blood group is known as the universal donor? Options: a) A+ |b) B+ |c) AB+ |d) O-
+Who wrote "The Theory of Relativity"? Options: a) Stephen Hawking |b) Niels Bohr |c) Albert Einstein |d) Max Planck
+What is the capital of Canada? Options: a) Toronto |b) Vancouver |c) Ottawa |d) Montreal
+Which is the largest island in the world? Options: a) Madagascar |b) Borneo |c) Greenland |d) Australia
+Who discovered America in 1492? Options: a) Vasco da Gama |b) Ferdinand Magellan |c) Christopher Columbus |d) Amerigo Vespucci
+What is the chemical formula for water? Options: a) CO2 |b) H2O |c) NaCl |d) O2
+Which is the largest bone in the human body? Options: a) Skull |b) Femur |c) Spine |d) Rib cage
+Who was the first woman to win a Nobel Prize? Options: a) Marie Curie |b) Dorothy Hodgkin |c) Irène Joliot-Curie |d) Rosalind Franklin
+What is the national bird of the United States? Options: a) Hawk |b) Eagle |c) Falcon |d) Owl
+Which country hosted the first modern Olympic Games in 1896? Options: a) France |b) Italy |c) Greece |d) United Kingdom
+What is the main ingredient in glass? Options: a) Plastic |b) Sand |c) Clay |d) Wood
+Who wrote "The Origin of Species"? Options: a) Gregor Mendel |b) Charles Darwin |c) Alfred Russel Wallace |d) Jean-Baptiste Lamarck
+What is the largest organ in the human body? Options: a) Heart |b) Brain |c) Liver |d) Skin
+Which is the deepest ocean trench in the world? Options: a) Puerto Rico Trench |b) Tonga Trench |c) Mariana Trench |d) Philippine Trench
+Who invented the World Wide Web? Options: a) Bill Gates |b) Steve Jobs |c) Tim Berners-Lee |d) Mark Zuckerberg
+What is the capital of Brazil? Options: a) Rio de Janeiro |b) São Paulo |c) Salvador |d) Brasília
+Which vitamin is produced when skin is exposed to sunlight? Options: a) Vitamin A |b) Vitamin C |c) Vitamin D |d) Vitamin E
+Who wrote "The Great Gatsby"? Options: a) Ernest Hemingway |b) F. Scott Fitzgerald |c) John Steinbeck |d) William Faulkner
+What is the largest moon of Saturn? Options: a) Enceladus |b) Titan |c) Rhea |d) Iapetus
+Which country is known as the Land of Thunder Dragon? Options: a) Nepal |b) Bhutan |c) Myanmar |d) Laos
+Who discovered the electron? Options: a) Ernest Rutherford |b) J.J. Thomson |c) Niels Bohr |d) James Chadwick
+What is the boiling point of water in Fahrenheit? Options: a) 100°F |b) 212°F |c) 32°F |d) 180°F
+Which is the largest rainforest in the world? Options: a) Congo Rainforest |b) Daintree Rainforest |c) Amazon Rainforest |d) Southeast Asian Rainforest
+Who wrote "The Communist Manifesto"? Options: a) Vladimir Lenin |b) Karl Marx and Friedrich Engels |c) Mao Zedong |d) Joseph Stalin
+What is the national flower of Japan? Options: a) Rose |b) Lotus |c) Cherry Blossom |d) Chrysanthemum
+Which is the longest mountain range in the world? Options: a) Himalayas |b) Alps |c) Andes |d) Rockies
