@@ -31,8 +31,7 @@ int main() {
     printf("a) Login\n");
     printf("b) Register\n");
     printf("c) Exit\n");
-    printf("d) Reset score\n");
-    printf("e) See score\n");
+
 
 
 /////////////-- User's choice-////////////
@@ -49,12 +48,7 @@ int main() {
         printf("Hope you return soon\n");
         exit(0);
     }
-    else if (strcmp(choice, "d") == 0 || strcmp(choice, "Reset score") == 0) {
-        resetScore();
-    }
-    else if (strcmp(choice, "e") == 0 || strcmp(choice, "See score") == 0) {
-        seeScore();
-    }
+
     
     else {
         printf("Invalid choice\n");
@@ -76,14 +70,11 @@ void login() {
     printf("Login attempted with Username: %s\n", username);
     authenticity_check(username,password);
 }
-void resetScore(){
 
-}
-void seeScore(){
-    FILE *fp;
-    fp=fopen("score.txt","r");
 
-}
+
+
+
 
 void add() {         //////////--register-////////
     FILE *ptr,*ptr2;
@@ -128,13 +119,113 @@ if(fs == NULL){
 fprintf(fs,"0\n");
 
 fclose(fs);
-    printf("User %s registered successfully!\n", username);
-    startMenu();
+
+// set current user information
+FILE *temp;
+int lineCount = 0;
+char dummy[50];
+
+temp = fopen("user.txt","r");
+
+while(fscanf(temp,"%s",dummy) != EOF){
+    lineCount++;
+}
+
+fclose(temp);
+
+// newly registered user is on last line
+currentUserLine = lineCount;
+
+lastScore = 0;
+
+printf("User %s registered successfully!\n", username);
+
+startMenu();
 
 
 
 
 
+}
+void seeScore(){
+
+    FILE *fs;
+    int score;
+    int line = 0;
+
+    fs = fopen("score.txt","r");
+
+    if(fs == NULL){
+
+        printf("Error opening score file\n");
+        return;
+    }
+
+    while(fscanf(fs,"%d",&score) != EOF){
+
+        line++;
+
+        // logged in user's line matched
+        if(line == currentUserLine){
+
+            printf("Your current score/progress is: %d\n", score);
+            break;
+        }
+    }
+
+    fclose(fs);
+
+    
+}
+void resetScore(){
+
+    FILE *fs;
+
+    int scores[100];
+
+    int i = 0;
+
+    fs = fopen("score.txt","r");
+
+    if(fs == NULL){
+
+        printf("Error opening score file\n");
+        return;
+    }
+
+    // read all scores
+    while(fscanf(fs,"%d",&scores[i]) != EOF){
+
+        i++;
+    }
+
+    fclose(fs);
+
+    // reset only logged in user's score
+    scores[currentUserLine - 1] = 0;
+
+    fs = fopen("score.txt","w");
+
+    if(fs == NULL){
+
+        printf("Error writing file\n");
+        return;
+    }
+
+    // rewrite all scores
+    for(int j = 0; j < i; j++){
+
+        fprintf(fs,"%d\n",scores[j]);
+    }
+
+    fclose(fs);
+
+    // also reset runtime progress
+    lastScore = 0;
+
+    printf("Your score has been reset successfully!\n");
+
+   
 }
 
 void startMenu() {
@@ -148,6 +239,8 @@ void startMenu() {
     printf("\t\t\t\t\t START MENU\n");
     printf("a) Start preparation\n");
     printf("b) Exit\n");  
+    printf("c) Reset score\n");
+    printf("d) See score\n");
     printf("Enter your choice : ");
     scanf("%s",choice);
 
@@ -160,6 +253,12 @@ void startMenu() {
     else if(strcmp(choice,"Exit")==0 || strcmp(choice,"b")==0){
         printf("Exiting...\n");
         exit(0);
+    }
+    else if (strcmp(choice, "c") == 0 || strcmp(choice, "Reset score") == 0) {
+        resetScore();
+    }
+    else if (strcmp(choice, "d") == 0 || strcmp(choice, "See score") == 0) {
+        seeScore();
     }
 }
 void shuffleOptions(char options[4][100], char *correctAns) {
