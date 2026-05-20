@@ -3,6 +3,11 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
 
 void login();
 void add();                       ///-- User defined functions--///
@@ -15,27 +20,69 @@ void authenticity_check(char username[],char password[]);
 void updateScore(int newScore);
 void resetScore();
 void seeScore();
-
+void header(char title[]);
+void loading();
 int qCount=0;   
  
 int lastScore = 0;
 int currentUserLine = 0;  
 int lastQuestionReached = 0;                ///--Global Variable--///
 
+void header(char title[]) {
+
+    printf("\n");
+    printf("============================================================\n");
+    printf("                %s\n", title);
+    printf("============================================================\n");
+}
+void loading() {
+
+    printf("\nLoading");
+
+    for(int i = 0; i < 5; i++) {
+
+        printf(".");
+        fflush(stdout);
+
+        #ifdef _WIN32
+        Sleep(500);
+        #else
+        usleep(500000);
+        #endif
+    }
+
+    printf("\n");
+}
 int main() {
+    loading();
     srand(time(NULL));        //Use current time as the starting seed.
     char choice[20];
+    printf("\n");
+
+printf("██████╗  ██████╗ █████╗ \n");
+printf("██╔══██╗██╔════╝██╔══██╗\n");
+printf("██████╔╝██║     ███████║\n");    //using unicode text 
+printf("██╔══██╗██║     ██╔══██║\n");
+printf("██████╔╝╚██████╗██║  ██║\n");
+printf("╚═════╝  ╚═════╝╚═╝  ╚═╝\n");
+
+printf("\n");
+printf("     🎀   ENTRANCE PREPARATION SYSTEM     🎀\n");
 /////////////////////////////-- Main Menu--/////////////////////////////
-    printf("\t\t\t\tWelcome to BCA Entrance preparation\n");
-    printf("Main menu:\n");
-    printf("a) Login\n");
-    printf("b) Register\n");
-    printf("c) Exit\n");
+header("WELCOME MASTER");
 
+printf("\n");
+printf("  +--------------------------------------------+\n");
+printf("  |                 MAIN MENU                  |\n");
+printf("  +--------------------------------------------+\n");
+printf("  |                                            |\n");
+printf("  |   [a] Login                                |\n");
+printf("  |   [b] Register                             |\n");
+printf("  |   [c] Exit                                 |\n");
+printf("  |                                            |\n");
+printf("  +--------------------------------------------+\n");
 
-
-/////////////-- User's choice-////////////
-    printf("Enter your choice: ");
+printf("\nEnter your choice : ");
     scanf("%s", choice);
 
     if (strcmp(choice, "a") == 0 || strcmp(choice, "Login") == 0) {
@@ -59,13 +106,14 @@ int main() {
 
 void login() {
     char username[50], password[50];
-    printf("\t\t\t\t\tEnter the details \n");
+header("USER LOGIN");
 
-    printf("Enter username: ");
-    scanf("%s", username);
+printf("\n");
+printf("Username : ");
+scanf("%s", username);
 
-    printf("Enter password: ");
-    scanf("%s", password);
+printf("Password : ");
+scanf("%s", password);
 
     printf("Login attempted with Username: %s\n", username);
     authenticity_check(username,password);
@@ -80,7 +128,7 @@ void add() {         //////////--register-////////
     FILE *ptr,*ptr2;
     char username[50], password[50];
 
-    printf("\t\t\t\t\tRegister new user\n");
+    header("REGISTER NEW USER");
 
     printf("Enter username: ");
     scanf("%s", username);
@@ -168,7 +216,14 @@ void seeScore(){
         // logged in user's line matched
         if(line == currentUserLine){
 
-            printf("Your current score/progress is: %d\n", score);
+           printf("\n");
+printf("========================================\n");
+printf("         YOUR CURRENT PROGRESS\n");
+printf("========================================\n");
+
+printf(" Questions Completed : %d\n", score);
+
+printf("========================================\n");
             break;
         }
     }
@@ -236,12 +291,19 @@ void startMenu() {
     #else
     system("clear");
     #endif       //  clear the console screen and reset the cursor to the top-left corner
-    printf("\t\t\t\t\t START MENU\n");
-    printf("a) Start preparation\n");
-    printf("b) Exit\n");  
-    printf("c) Reset score\n");
-    printf("d) See score\n");
-    printf("Enter your choice : ");
+    header("START MENU");
+
+printf("\n");
+printf("  +--------------------------------------------+\n");
+printf("  |                                            |\n");
+printf("  |   [a] Start Preparation                    |\n");
+printf("  |   [b] Exit                                 |\n");
+printf("  |   [c] Reset Score                          |\n");
+printf("  |   [d] See Score                            |\n");
+printf("  |                                            |\n");
+printf("  +--------------------------------------------+\n");
+
+printf("\nEnter your choice : ");
     scanf("%s",choice);
 
 
@@ -554,10 +616,17 @@ sscanf(optPtr,
         scanf(" %c", &ans);
 
         if (ans == aline[0]) {        // ans is single character datatype so comparing with first character of aline which is correct answer
-            printf("Correct answer!\n");
+            printf("\n");
+printf("****************************************************\n");
+printf("                 CORRECT ANSWER\n");
+printf("****************************************************\n");
            
         } else {
-            printf("Wrong answer. Correct answer: %c\n", aline[0]);
+            printf("\n");
+printf("****************************************************\n");
+printf("                 WRONG ANSWER\n");
+printf("         Correct Answer : %c\n", aline[0]);
+printf("****************************************************\n");
         }
 
         // Check for 10-question limit
@@ -576,7 +645,10 @@ sscanf(optPtr,
 void q10() {
     char choice[20];
 
-    printf("\n--- 10 Questions Completed ---\n");
+    printf("\n");
+printf("############################################################\n");
+printf("                 10 QUESTIONS COMPLETED\n");
+printf("############################################################\n");
     printf("a) Continue the game\n");
     printf("b) Exit\n");
     printf("Enter your choice: ");
